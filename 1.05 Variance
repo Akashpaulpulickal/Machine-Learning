@@ -1,0 +1,10 @@
+import numpy as akash
+
+# Create a NumPy array
+data = akash.array([10, 20, 30, 40, 50])
+
+# Calculate the variance
+variance_value = akash.var(data)
+
+# Print the variance
+print(f"The variance of the array is: {variance_value}")
