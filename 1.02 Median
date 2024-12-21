@@ -1,0 +1,10 @@
+import numpy as np
+
+# Create a NumPy array
+data = np.array([10, 20, 30, 40, 50])
+
+# Calculate the median
+median_value = np.median(data)
+
+# Print the median
+print(f"The median of the array is: {median_value}")
