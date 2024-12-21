@@ -1,0 +1,11 @@
+import numpy as akash
+from scipy import stats
+
+# Create a NumPy array
+data = akash.array([1, 2, 2, 3, 4, 4, 4, 5, 5])
+
+# Calculate the mode
+mode_value, count = stats.mode(data)
+
+# Print the mode
+print(f"The mode of the array is: {mode_value[0]} with a count of: {count[0]}")
