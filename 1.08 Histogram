@@ -1,0 +1,10 @@
+
+# to visualise the representation as graph. x denotes the random values y denotes the number of time each values came
+
+import numpy
+import matplotlib.pyplot as plt
+
+x = numpy.random.uniform(0.0, 10, 5)
+
+plt.hist(x, 5)
+plt.show()
