@@ -1,0 +1,10 @@
+import numpy as akash
+
+# Create a NumPy array
+data = akash.array([10, 20, 30, 40, 50])
+
+# Calculate the standard deviation
+std_deviation = akash.std(data)
+
+# Print the standard deviation
+print(f"The standard deviation of the array is: {std_deviation}")
