@@ -1,7 +1,7 @@
-import numpy as np
+import numpy as akash
 
 # Create a NumPy array
-data = np.array([10, 20, 30, 40, 50])
+data = akash.array([10, 20, 30, 40, 50])
 
 # Calculate the median
 median_value = np.median(data)
