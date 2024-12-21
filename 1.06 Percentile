@@ -1,0 +1,14 @@
+import numpy as akash
+
+# Create a NumPy array
+data = akash.array([10, 20, 30, 40, 50])
+
+# Calculate the 50th percentile (median)
+percentile_50 = akash.percentile(data, 50)
+
+# Calculate the 90th percentile
+percentile_90 = akash.percentile(data, 90)
+
+# Print the percentiles
+print(f"The 50th percentile (median) of the array is: {percentile_50}")
+print(f"The 90th percentile of the array is: {percentile_90}")
