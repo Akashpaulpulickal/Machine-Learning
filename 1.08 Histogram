@@ -6,5 +6,5 @@ import matplotlib.pyplot as plt
 
 x = numpy.random.uniform(0.0, 10, 5)
 
-plt.hist(x, 5)
+plt.hist(x, 5)   # display with 5 bars (no of bars)
 plt.show()
